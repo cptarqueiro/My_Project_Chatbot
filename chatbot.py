@@ -4,6 +4,8 @@ from chatterbot.trainers import ListTrainer
 
 # Criar uma nova instancia ChatBot
 # usar o read_only=True) quando o bot já estiver treinado, assim ele para de treinar e carrega mais rápido.
+# sobre o adaptador logico, lembrar da ordem de precendia : multiplicação, divisão, soma or subtração.
+# Passado adaptador logico de hora, em inglês.
 chatbot = ChatBot('Ordis',
                   storage_adapter='chatterbot.storage.SQLStorageAdapter',
                   logic_adapters=[
