@@ -9,6 +9,7 @@ chatbot = ChatBot('Ordis',
                   logic_adapters=[
                       'chatterbot.logic.MathematicalEvaluation',
                       'chatterbot.logic.BestMatch',
+                      'chatterbot.logic.TimeLogicAdapter',
                       {
                           'import_path': 'chatterbot.logic.BestMatch',
                           'default_response': 'Sinto muito, mas não entendo. Ainda estou aprendendo.',
