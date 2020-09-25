@@ -32,6 +32,7 @@ trainer = ListTrainer(chatbot)
 trainer.train(training_data_info)
 trainer.train(training_data_pesssoal)
 
+# opcional
 # treinamento com portuguese corpus data.
 # trainer_corpus = ChatterBotCorpusTrainer(chatbot)
 # trainer_corpus.train('chatterbot.corpus.portuguese')
